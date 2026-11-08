@@ -19,9 +19,9 @@ const Layout = (props: { children: any }) => {
           </div>
         </main>
         <footer class="max-w-2xl mx-auto px-4 sm:px-6 pb-8 text-sm text-gray-500">
-          <div class="border-t border-gray-200 pt-4">
-            Übungsprojekt – KI-unterstützt erstellt
-          </div>
+<div class="border-t border-gray-200 pt-4">
+              Erstellt mit OpenCode und KI:connect.nrw, gehostet auf Cloudflare Workers
+            </div>
         </footer>
       </body>
     </html>
@@ -51,14 +51,14 @@ app.get('/', (c) => {
           Master Wirtschaftspsychologie an der FernUniversität in Hagen
         </p>
       </header>
+      <Section title="Über mich">
+        <p>
+          Ich studiere Wirtschaftspsychologie (M.Sc.) an der FernUniversität in Hagen.
+        </p>
+      </Section>
       <Section title="Seminar">
         <p>
           Ich nehme am Seminar „Angewandtes digitales Entrepreneurship für nachhaltigen Impact“ (WiSe 2026/27) teil.
-        </p>
-      </Section>
-      <Section title="Diese Seite">
-        <p>
-          Diese Seite ist ein kleines Übungsprojekt, erstellt mit Hono, Tailwind und Cloudflare Workers unter Verwendung des AI-Coding-Agenten OpenCode, als Seminarvorbereitung.
         </p>
       </Section>
     </Layout>
